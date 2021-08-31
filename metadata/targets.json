@@ -1,0 +1,69 @@
+{
+ "signatures": [
+  {
+   "keyid": "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b",
+   "sig": "ac2c23f678bbd02700c2d6be0ffbdc1fe6c9ec5bd99aa8f77cedc3f254db1608575374fba32020c2575404e1167de492885ae7d3d1757e262aa9c43fbaf2cc1b24065706469f751c38533fce9f33db6f16bda9072bcccdfad1c706a920d140387666e1b2081118c8b70ac0da2ca33a077cacb9b2910a6043b3a2b4bf505add2d78860959dd65bdc9988d7b0dc6d9349c36ce21bdd2a84c5519cfde129be6cceaf6504dad9a8b19c583378f779ab938dcb8872aa31581159d1d664572cbcbda918ca29f69ff102ca324eff2754d911e9d1c1b5101e708bef267a1aebf2e3046d64dfafcdbef2681e488539075df4a0aa7e78ff747932700106bd09586ec18d47f"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {
+    "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1heRzGMtHO9WtduHG+ur\ntYbkLoQzr3NkNAEGALqL/JGiIhsZGlzfWVB7r9zawmW7bs5B0vB9iETgPnPao9QD\n+SVVJIscMoQfKP7hcQuXOxpHG7aUaZrLNTqyvGezCkfKZeGCVtmKZynKsZe2QUaN\nzvx9gKdiibAGvR62Co2KjKmPidssL7qxc0vLbq3cZd+xjDhdK/3i74BtfzxqFayy\nQ1pDBEMDs++Edm17cbVD4OwRMF9nod6vNPgGHC0ljBiSohs/BIAxxGTOboUtAMv5\nSnzMxeQhuKQoAJsJoi9+ea+voG/Sd9WJxvtwH85qImCLPD1XL6kfhNIdfJjFol0U\n6QIDAQAB\n-----END PUBLIC KEY-----"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "law",
+     "paths": [
+      "smcgov/law-xml",
+      "smcgov/law-html",
+      "smcgov/law-xml-codified",
+      "capstone",
+      "branch"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "docs",
+     "paths": [
+      "smcgov/law-docs"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "assets",
+     "paths": [
+      "smcgov/law-static-assets"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2021-12-01T01:03:39Z",
+  "spec_version": "1.0",
+  "targets": {},
+  "version": 1
+ }
+}
