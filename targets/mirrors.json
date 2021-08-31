@@ -1,0 +1,5 @@
+{
+  "mirrors": [
+      "git@github.com:oll-demo-repos/{org_name}-{repo_name}.git"
+  ]
+}

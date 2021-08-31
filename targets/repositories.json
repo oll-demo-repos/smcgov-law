@@ -1,0 +1,55 @@
+{
+    "repositories": {
+        "smcgov/law-docs": {
+            "urls": [
+                "git@github.com:oll-demo-repos/smcgov-law-docs.git"
+            ],
+            "custom": {
+                "allow-unauthenticated-commits": true,
+                "serve": "latest",
+                "location_regex": "~/.*\\.pdf$"
+            }
+        },
+        "smcgov/law-html": {
+            "urls": [
+                "git@github.com:oll-demo-repos/smcgov-law-html.git"
+            ],
+            "custom": {
+                "preview": "git@github.com:oll-demo-repos/smcgov-law-html-preview.git",
+                "type": "html",
+                "serve": "historical",
+                "location_regex": "/"
+            }
+        },
+        "smcgov/law-xml": {
+            "urls": [
+                "git@github.com:oll-demo-repos/smcgov-law-xml.git"
+            ],
+            "custom": {
+                "type": "xml",
+                "allow-unauthenticated-commits": true,
+                "serve": "latest",
+                "serve-prefix": "_uncodified_xml"
+            }
+        },
+        "smcgov/law-xml-codified": {
+            "urls": [
+                "git@github.com:oll-demo-repos/smcgov-law-xml-codified.git"
+            ],
+            "custom": {
+                "preview": "git@github.com:oll-demo-repos/smcgov-law-xml-codified-preview.git",
+                "type": "xml-codified",
+                "serve": "historical",
+                "serve-prefix": "_xml"
+            }
+        },
+        "smcgov/law-static-assets": {
+            "custom": {
+                "type": "static-assets",
+                "allow-unauthenticated-commits": true,
+                "serve": "latest",
+                "location_regex": "~.+(_document|_reader).+$"
+            }
+        }
+    }
+}
